@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(247, 237, 224);
+    /* text-align: center; */
+    margin:0;
+    padding: 0;
+}
+input{
+    display: flexbox;
+    flex-direction: row;
+    background-color: rgba(233, 223, 224, 0.637);
+    border: 1px solid aquamarine;
+    font-size: small;
+    /* margin-right: 100px; */
+    padding: 2px;
+    float: right;
+    /* display: table-column; */
+    
+}
+fieldset{
+
+    display: block;
+    /* border-color: blueviolet; */
+    padding: 50px;
+    /* padding-left: 40px; */
+    border: 5px ridge skyblue;
+    margin: 340px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    background-color: rgba(250, 224, 227, 0.623);
+
+}
+
+legend{
+    color: red;
+    /* text-decoration: dashed; */
+}
+footer{
+    text-align: center;
+}
+#contacts{
+    display:inline-block;
+    /* margin-left: 20px; */
+    padding: 5px;
+    /* width: auto; */
+    background-color: turquoise;
+
+}
+#text{
+    position: relative;
+    text-align: center;
+}
+#section2{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+img{
+    margin-top: 30px;
+    border: 5px ridge grey;
+    padding: 5px;
+}
+#firstline{
+    text-transform: capitalize;
+    text-decoration-color: brown;
+    font-size: large;
+    text-align: center;
+    border: 4px groove grey;
+    border-radius: 20px;
+    text-shadow: 2px 2px 2px red;
+}
